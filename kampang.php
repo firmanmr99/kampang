@@ -16,7 +16,7 @@ $headers[] = "Access-Control-Request-Headers: authorization";
 $headers[] = "Authorization: Basic VHRSczgwU2dEd0VjSVpMdnliZGRYS2RmaTpJWFVseHQ1cEdjNUZVRXZKY1JNdnpiTUFHanRHNk5nU0tYZm16SzBiUE1iVjhjcGVPUQ==";
 echo "      Bot Auto Search Voucher E.GIFT.ID\n";
 echo "           YarzCode - Meds\n\n";
-$socks = explode("\n", file_get_contents("socks.txt"));
+$socks = explode("\n", file_get_contents("vipsocks.txt"));
 $i=0;
 foreach($socks as $proxy)
 { 
